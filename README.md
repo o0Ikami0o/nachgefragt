@@ -1,9 +1,8 @@
 # nachgefragt! Fragen an die Wissenschaft
 
-Nach einer Idee von  [proWissen Potsam e.V.](www.wis-potsdam.de/de/prowissen-potsdam-ev)
+Nach einer Idee von  [proWissen Potsam e.V.](http://www.wis-potsdam.de/de/prowissen-potsdam-ev)
 
-Die Antworten in diesem Heft spiegeln die Ansichten der jeweiligen Wissenschaftler_
-innen zu einem Sachverhalt wider, die Redaktion distanziert sich
+Die Antworten in diesem Heft spiegeln die Ansichten der jeweiligen Wissenschaftlerinnen und Wissenschaftler zu einem Sachverhalt wider, die Redaktion distanziert sich
 im Einzelfall von der vertretenen Meinung.
 
 ## Nachgefragt!2020 Fragen an die Wissenschaft
