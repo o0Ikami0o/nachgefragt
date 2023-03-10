@@ -1,11 +1,15 @@
 name: Simple Usage
 
-on: push
+on: workflow_dispatch
 
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
+      - uses: actions/checkout@v3
       - uses: docker://pandoc/core:2.9
         with:
-          args: "--help" # gets appended to pandoc command
+          args: "nachgefragt/liste_fragen.md -f markdown -t html -s -o nachgefragt.html" # gets appended to pandoc command
+      - uses: actions/upload-artifact@v3
+        with:
+          path: nachgefragt.html
