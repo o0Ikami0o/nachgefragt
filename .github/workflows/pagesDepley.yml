@@ -1,0 +1,18 @@
+name: pagesDeploy
+
+on: workflow_dispatch
+permissions:
+  contents: write
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - run: mkdir pages
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: "liste_fragen.md -f markdown -t html -s -o pages/nachgefragt.html" # gets appended to pandoc command
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: pages
